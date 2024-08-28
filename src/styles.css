@@ -1,0 +1,29 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#root {
+  position: fixed;
+  background-color: black;
+}
+
+.header {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  mix-blend-mode: difference;
+  z-index: 11;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+}
